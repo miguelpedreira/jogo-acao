@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?cs=srgb&dl=pexels-jeshoots-com-147458-442576.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+}
+.h1 {
+  text-align: center;
+}
+
+.foto-game {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  height: 200px;
+  display: flex; /* Garante que as imagens fiquem alinhadas horizontalmente */
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  align-items: center; /* Alinha as imagens verticalmente */
+  gap: 15px; /* Define o espaçamento entre as imagens */
+  margin-top: 10%;
+  padding: 20px;
+  text-align: center;
+}
+.foto-game a img {
+  width: 250px;
+  height: 260px;
+  margin: 0 15px;
+  border-radius: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição suave */
+}
+
+.foto-game a img:hover {
+  transform: translateY(-70px); /* Move a imagem 10px para cima */
+  box-shadow: 0 8px 50px rgba(21, 1, 1, 0.5); /* Adiciona uma sombra ao passar o mouse */
+}
